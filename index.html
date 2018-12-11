@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <title>FruitBank</title>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Welcome back, <span id="name"></span>!</h1>
+    </div>
+  </div>
+  <div class="container">
+    <h3>Bank balance: $<span id="balance"></span></h3>
+    <button type="button" class="btn btn-danger my-3">Acount Limit: $100</button>
+
+    <br>
+    <h6>Withdraw amount:</h6>
+    <input id="withdraw-field" class="form-control col-4" type="text" placeholder="Enter amount">
+    <button onclick="withdrawMoney()" id="confirm-btn" type="submit" class="btn btn-primary mt-2">Confirm</button>
+    <div>
+      <h6 class="mt-2">Amount Withdrawn: <span id="amount-withdrawn" class="text-danger">None</span></h6>
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/jquery-3.3.1.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/popper.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/bootstrap.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
